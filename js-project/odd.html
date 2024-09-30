@@ -1,0 +1,17 @@
+<script>
+     function odd(number){
+        let odd = number % 2 == 0;
+
+        let b = ' yeh even number hai'
+        let c = 'yeh odd number hai'
+        
+        return(odd !== false) ? b:c
+    }
+    
+    let number = parseFloat(prompt('number'));
+
+    let result = odd(number)
+
+    console.log(result)
+
+</script>
